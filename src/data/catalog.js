@@ -31,7 +31,7 @@ export const companyInfo = {
     },
   ],
   heroImage:
-    '/public/hero.JPG',
+    '/hero.JPG',
 }
 
 export const navItems = [
@@ -59,7 +59,7 @@ export const materials = [
     description:
       'بلوك ليكا هو خيار متوازن بين الخفة والمتانة، ويُستخدم بكثرة في أعمال الجدران الداخلية والخارجية، خاصة في المشاريع التي تحتاج إلى تقليل الأحمال وتحسين العزل الحراري والصوتي.',
     image:
-      '/public/leca.png',
+      '/leca.png',
     specificationGroups: [
       { label: 'المادة', value: 'بلوك خفيف الوزن' },
       { label: 'الاستخدام', value: 'قواطع وتجهيزات داخلية' },
@@ -103,7 +103,7 @@ export const products = [
     description:
       'يوفر هذا المنتج أداءً ممتازًا في أعمال الجدران الخارجية والتقسيمات الثقيلة، مع وزن مناسب يساعد على تقليل الحمل وزيادة سرعة التنفيذ.',
     image:
-      '/public/leca204.png',
+      '/leca204.png',
     gallery: [
       'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
@@ -134,7 +134,7 @@ export const products = [
     description:
       'هذا المنتج مناسب للمشاريع التي تحتاج إلى جدران متوازنة بين الأداء والوزن، مع سرعة تنفيذ عالية وتوفير في الحمل الهيكلي.',
     image:
-      '/public/leca203.png',
+      '/leca203.png',
     gallery: [
       'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80',
@@ -165,7 +165,7 @@ export const products = [
     description:
       'يُستخدم هذا المقاس على نطاق واسع في الأعمال التنفيذية التي تحتاج إلى حلول خفيفة في الجدران الداخلية مع سهولة تركيب وخصائص عزل جيدة.',
     image:
-      '/public/leca153.png',
+      '/leca153.png',
     gallery: [
       'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80',
@@ -196,7 +196,7 @@ export const products = [
     description:
       'يُعد هذا المقاس مناسبًا عندما تحتاج إلى جدران خفيفة ذات سمك أقل، خاصة في تقسيمات المساحات الداخلية مع الحفاظ على سهولة التنفيذ وراحة الاستخدام.',
     image:
-      '/public/leca102.png',
+      '/leca102.png',
     gallery: [
       'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80',
