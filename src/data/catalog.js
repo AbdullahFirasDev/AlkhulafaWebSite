@@ -11,7 +11,7 @@ export const companyInfo = {
   email: 'info@alkhulafa.com',
   facebook: 'https://web.facebook.com/profile.php?id=61565342556769&locale=tl_PH#',
   instagram: 'https://www.instagram.com/alkhulafa_company',
-  whatsappUrl: 'https://wa.me/07890005180',
+  whatsappUrl: 'https://wa.me/+9647890005180',
   phoneUrl: 'tel:07890005180',
   locations: [
     {
