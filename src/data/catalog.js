@@ -8,7 +8,7 @@ export const companyInfo = {
   secondaryPhoneNumber: '07769000051',
   phoneNumbers: ['07890005180', '07769000051'],
   whatsappNumber: '07890005180',
-  email: 'info@alkhulafa.com',
+  email: 'info@alkhulafa-iq.com',
   facebook: 'https://web.facebook.com/profile.php?id=61565342556769&locale=tl_PH#',
   instagram: 'https://www.instagram.com/alkhulafa_company',
   whatsappUrl: 'https://wa.me/+9647890005180',
