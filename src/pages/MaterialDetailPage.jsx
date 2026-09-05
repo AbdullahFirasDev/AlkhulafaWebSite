@@ -21,7 +21,7 @@ export default function MaterialDetailPage() {
         description={material.seo.description}
         keywords={material.seo.keywords}
         image={material.image}
-        canonicalUrl={`https://example.com/materials/${material.slug}`}
+        canonicalUrl={`${companyInfo.siteUrl}/materials/${material.slug}`}
       />
       <div className="page-shell">
       <div className="container">

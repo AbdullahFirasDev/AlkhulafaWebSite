@@ -1,10 +1,19 @@
 import SectionHeader from '../components/SectionHeader'
 import ProductCard from '../components/ProductCard'
-import { products } from '../data/catalog'
+import Seo from '../components/Seo'
+import { companyInfo, products } from '../data/catalog'
 
 export default function ProductsPage() {
   return (
-    <div className="page-shell">
+    <>
+      <Seo
+        title="منتجات بلوك ليكا | الخلفاء للتجارة العامة"
+        description="تعرّف على منتجات بلوك ليكا بمقاسات ومواصفات مختلفة من الخلفاء للتجارة العامة لتجهيز مشاريع البناء في العراق."
+        keywords={['منتجات بلوك ليكا', 'بلوك 20×40', 'مواد بناء العراق', 'تجهيز مشاريع']}
+        image={companyInfo.heroImage}
+        canonicalUrl={`${companyInfo.siteUrl}/products`}
+      />
+      <div className="page-shell">
       <div className="container">
         <SectionHeader
           eyebrow="المنتجات"
@@ -19,5 +28,6 @@ export default function ProductsPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }

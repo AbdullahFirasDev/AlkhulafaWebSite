@@ -1,4 +1,5 @@
 export const companyInfo = {
+  siteUrl: 'https://alkhulafa-iq.com',
   name: 'الخلفاء للتجارة العامة',
   shortName: 'الخلفاء',
   slogan: 'مواد بناء موثوقة لتجهيز المشاريع في العراق',

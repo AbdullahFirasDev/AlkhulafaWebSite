@@ -1,9 +1,18 @@
 import SectionHeader from '../components/SectionHeader'
+import Seo from '../components/Seo'
 import { companyInfo } from '../data/catalog'
 
 export default function LocationsPage() {
   return (
-    <div className="page-shell">
+    <>
+      <Seo
+        title="مواقع وفروع الخلفاء للتجارة العامة في العراق"
+        description="تعرف على مواقع الخلفاء للتجارة العامة في النجف الأشرف وبغداد وكربلاء وتواصل معنا لتجهيز مواد البناء."
+        keywords={['مواد بناء النجف', 'مواد بناء بغداد', 'مواد بناء كربلاء', 'فروع الخلفاء']}
+        image={companyInfo.heroImage}
+        canonicalUrl={`${companyInfo.siteUrl}/locations`}
+      />
+      <div className="page-shell">
       <div className="container">
         <SectionHeader
           eyebrow="مواقعنا"
@@ -26,5 +35,6 @@ export default function LocationsPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }

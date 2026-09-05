@@ -13,7 +13,7 @@ export default function HomePage() {
         description="الخلفاء للتجارة العامة تقدم مواد بناء بجودة موثوقة وتجهيز للمشاريع في العراق. استعرض المواد والمنتجات والمنتجات المخصصة للمقاولين."
         keywords={['الخلفاء للتجارة العامة', 'مواد بناء', 'بلوك ليكا', 'العراق', 'مقاولين']}
         image={companyInfo.heroImage}
-        canonicalUrl="https://example.com/"
+        canonicalUrl={`${companyInfo.siteUrl}/`}
       />
       <section className="hero-section">
         <div className="hero-overlay" />

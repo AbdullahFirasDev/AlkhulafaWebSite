@@ -36,7 +36,7 @@ export default function ProductDetailPage() {
         description={product.seo.description}
         keywords={product.seo.keywords}
         image={product.image}
-        canonicalUrl={`https://example.com/products/${product.slug}`}
+        canonicalUrl={`${companyInfo.siteUrl}/products/${product.slug}`}
       />
       <div className="page-shell">
       <div className="container">

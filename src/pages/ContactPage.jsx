@@ -1,9 +1,18 @@
 import SectionHeader from '../components/SectionHeader'
+import Seo from '../components/Seo'
 import { companyInfo } from '../data/catalog'
 
 export default function ContactPage() {
   return (
-    <div className="page-shell">
+    <>
+      <Seo
+        title="تواصل مع الخلفاء للتجارة العامة | مواد بناء العراق"
+        description="تواصل مع الخلفاء للتجارة العامة عبر الهاتف أو WhatsApp للحصول على عروض مواد البناء والكميات المناسبة لمشروعك."
+        keywords={['التواصل مع الخلفاء', 'طلب مواد بناء', 'WhatsApp مواد بناء العراق']}
+        image={companyInfo.heroImage}
+        canonicalUrl={`${companyInfo.siteUrl}/contact`}
+      />
+      <div className="page-shell">
       <div className="container narrow-layout">
         <SectionHeader
           eyebrow="تواصل معنا"
@@ -43,5 +52,6 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }

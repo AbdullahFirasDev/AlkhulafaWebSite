@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alkhulafa-iq.com/sitemap.xml
