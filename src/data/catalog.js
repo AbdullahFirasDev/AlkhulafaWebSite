@@ -139,6 +139,7 @@ export const products = [
     specifications: [
       { label: 'المقاس', value: '20×40×20 سم' },
       { label: 'الوزن', value: '8 كغم' },
+      { label: 'قوة الضغط', value: '2.2 MBP' },
       { label: 'نوع الاستخدام', value: 'جدار 4' },
       { label: 'التطبيق', value: 'أعمال الجدران الخارجية والداخلية' },
     ],
@@ -170,6 +171,7 @@ export const products = [
     specifications: [
       { label: 'المقاس', value: '20×40×20 سم' },
       { label: 'الوزن', value: '7 كغم' },
+      { label: 'قوة الضغط', value: '1.8 MBP' },
       { label: 'نوع الاستخدام', value: 'جدار 3' },
       { label: 'التطبيق', value: 'تجهيزات الجدران الداخلية' },
     ],
@@ -201,6 +203,7 @@ export const products = [
     specifications: [
       { label: 'المقاس', value: '20×40×15 سم' },
       { label: 'الوزن', value: '6 كغم' },
+      { label: 'قوة الضغط', value: '1.9 MBP' },
       { label: 'نوع الاستخدام', value: 'جدار 3' },
       { label: 'التطبيق', value: 'أعمال التقسيم الداخلي' },
     ],
@@ -232,6 +235,7 @@ export const products = [
     specifications: [
       { label: 'المقاس', value: '20×40×10 سم' },
       { label: 'الوزن', value: '6 كغم' },
+      { label: 'قوة الضغط', value: '1.2 MBP' },
       { label: 'نوع الاستخدام', value: 'جدار 2' },
       { label: 'التطبيق', value: 'تقسيمات داخلية خفيفة' },
     ],
