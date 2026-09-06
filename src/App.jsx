@@ -9,10 +9,12 @@ import MaterialsPage from './pages/MaterialsPage'
 import NotFoundPage from './pages/NotFoundPage'
 import ProductDetailPage from './pages/ProductDetailPage'
 import ProductsPage from './pages/ProductsPage'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Layout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/materials" element={<MaterialsPage />} />

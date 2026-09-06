@@ -81,6 +81,9 @@ export default function HomePage() {
           {products.slice(0, 4).map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}
+          {products.slice(4).map((product) => (
+            <ProductCard key={product.slug} product={product} />
+          ))}
         </div>
       </section>
 
